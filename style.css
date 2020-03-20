@@ -1,0 +1,206 @@
+body {
+    background: White;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #ff607b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+h1 {
+    font-size: 56px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+    font-style: italic;
+}
+
+header {
+    text-align: center;
+    padding: 3em;
+}
+
+form {
+    background: #eee;
+    border: #ddd;
+    border-radius: 4px;
+    margin: auto;
+    max-width: 300px;
+    padding: 1.5em;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 92%;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+.app {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mb-md {
+    margin-bottom: 5em;
+}
+
+.ul {
+    margin: 1px;
+    padding: 0px;
+}
+
+.nav-home {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+}
+
+.btn {
+    background: #ff607b;
+    border-radius: 4px;
+    color: #fff;
+    padding: 8px 10px;
+}
+
+.text-pink {
+    color: #ff607b;
+}
+
+input[type="submit"].btn {
+    font-size: 16px;
+}
+
+.btn.blue {
+    background: #3086f6;
+    color: #fff;
+}
+
+.form-con {
+    text-align: center;
+}
+
+.destination-container {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.destination {
+    background: #f6f6f6;
+    color: #000;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    margin: 5px;
+    padding-right: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.destination:hover {
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+}
+
+.destination img {
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.homestay p {
+    max-width: 560px;
+}
+
+.homestay img {
+    width: 350px;
+    height: 240px;
+}
+
+.headline {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 32px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 7em;
+    padding-bottom: 7em;
+}
+
+.ft-sm, .ft-sm a {
+    color: #666;
+}
+
+@media (max-width:782px) {
+    .destination-container {
+        display: block;
+    }
+
+    .destination {
+        margin: 5px auto;
+        max-width: 300px;
+    }
+
+    .secondary {
+        display: block;
+    }
+
+    .homestay {
+        align-content: center;
+        max-width: min-content;
+        margin: auto;
+        margin-bottom: 5em;
+    }
+
+    .headline {
+        text-align: center;
+    }
+}
+
+@media (min-width:782px) {
+    .destination-container a:first-child {
+        margin-left: 0;
+    }
+}
