@@ -117,6 +117,14 @@ input[type="submit"].btn {
     background: #3086f6;
     color: #fff;
 }
+.btn.success {
+    background: #4cbb45;
+    color: #fff;
+}
+.btn.indigo {
+    background: #5a67d8;
+    color: #fff;
+}
 
 .form-con {
     text-align: center;
@@ -160,7 +168,7 @@ input[type="submit"].btn {
     margin: 0;
 }
 
-.homestay p {
+.homestay p, .promo p {
     max-width: 560px;
 }
 
@@ -217,6 +225,11 @@ footer {
 
     .headline {
         text-align: center;
+    }
+
+    .promo {
+        text-align: center;
+        max-width: 300px;
     }
 }
 
